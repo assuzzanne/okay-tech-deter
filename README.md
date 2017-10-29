@@ -1,0 +1,1 @@
+# okay-tech-deter
