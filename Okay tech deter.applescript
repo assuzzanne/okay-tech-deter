@@ -1,0 +1,9 @@
+set sentences to {"This a safety announcement. It is not permitted to cycle, skateboard or rollerblade within the station building", "Mostly cloudy currently. It's 6¡; the high will be 13¡. Mostly cloudy tonight with a high of 6¡", "Mind the gap between the train and the platform", "Please move down inside the bus", "This bus terminates here. Please take all your belongings with you", "Enter Password", "Unexpected item in bagging area, remove this item before continuing", "Approval needed", "Please wait for assistance", "Please put the carder into the card reader and follow the instructions", "Thank you for shopping at Waitrose", "Quantity needed", "Floor 1", "To speak with the operator, press 0 at any time", "Please take your items", "Please do not take luggages on the escalator", "Stand behind the yellow line", "24 hour CCTV recording is in operation at this station for the purpose of security and safety management", "I'm sorry but all of our representatives are currently assisting other callers. But your call is important to us.", "Please speak and then spell your first and last name, and then press 1.", "The animals you see working in this terminal are for your safety, please do not distract them from their work", "Unattended baggage is a security risk and may be removed and destroyed in accordance with TSA regulations", "Your call has been forwarded to an automated voice messaging system", "Sorry I missed that", "OK, here's the weather for today", "OK, here's what I found"}
+
+repeat
+	
+	tell application "System Events" to display dialog some item of sentences buttons {"OK"}
+	
+	delay 2
+	
+end repeat
